@@ -1,6 +1,8 @@
-import React from 'react';
+let React = require('react');
+let createReactClass = require('create-react-class');
 
-let Increment = React.createClass({
+
+module.exports = createReactClass({
     getInitialState: function() {
       return {
         counter: 0
@@ -20,8 +22,3 @@ let Increment = React.createClass({
      </div>
   }
 });
-
-React.render(<Increment />,
-    document.getElementById('counter'))
-
-export default Increment;
