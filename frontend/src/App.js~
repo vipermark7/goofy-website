@@ -16,6 +16,7 @@ class Button extends React.Component {
   decrement() {
     this.setState({ counter: this.state.counter - 1 });
   }      
+}
   render() {
     return (
       <div>

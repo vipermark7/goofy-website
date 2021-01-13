@@ -8,8 +8,10 @@
     "@testing-library/user-event": "^12.1.10",
     "create-react-class": "^15.7.0",
     "react": "^17.0.1",
+    "react-confetti": "^6.0.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "react-use": "^15.3.8",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
