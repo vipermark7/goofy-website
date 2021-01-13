@@ -33,6 +33,6 @@ function App() {
   );
   
 }
-ReactDOM.render(<Button counter = 0/>, document.getElementById("root"));
+ReactDOM.render(<Button />, document.getElementById("root"));
 
 export default App;
