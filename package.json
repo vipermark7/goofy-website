@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vipermark7/goofy-website/issues"
   },
-  "homepage": "https://github.com/vipermark7/goofy-website#readme"
+  "homepage": "https://github.com/vipermark7/goofy-website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
