@@ -1,7 +1,8 @@
 import './App.css';
 import React from 'react';
+import { Button } from 'react-materialize';
 
-class Button extends React.Component {
+class Counter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -33,11 +34,12 @@ function App() {
       <h1>Welcome to Shelby and Shaffan's goofy website!</h1>
 
       <p>Bet you can't click this button a million times!</p>
-      <Button />
+      <Counter />
+      <Button waves="light">
+              We are using Materialize!
+      </Button>
     </div>
   );
-
 }
-
 
 export default App;
